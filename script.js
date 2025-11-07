@@ -8,7 +8,7 @@ function scrollToSection(id) {
 document.getElementById("year").innerText = new Date().getFullYear();
 
 // Affiliate Link
-const affiliateLink = ""; // <-- Add your affiliate link here
+const affiliateLink = "https://pxt.pinealxt.com/ds/presentation/index.php#aff=goldystore"; // <-- Add your affiliate link here
 
 function buyNow() {
   if (affiliateLink) {
@@ -29,3 +29,4 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.15 });
 
 items.forEach((item) => observer.observe(item));
+
